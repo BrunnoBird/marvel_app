@@ -1,4 +1,4 @@
-package daniel.lop.io.marvelappstarter
+package daniel.lop.io.marvelappstarter.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.onNavDestinationSelected
 import androidx.navigation.ui.setupWithNavController
 import dagger.hilt.android.AndroidEntryPoint
+import daniel.lop.io.marvelappstarter.R
 import daniel.lop.io.marvelappstarter.databinding.ActivityMainBinding
 
 @AndroidEntryPoint

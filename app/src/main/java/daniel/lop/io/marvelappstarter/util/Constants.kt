@@ -2,6 +2,8 @@ package daniel.lop.io.marvelappstarter.util
 
 object Constants {
 
+    const val DATA_BASE_NAME = "marvel.db"
+
     const val BASE_URL = "https://gateway.marvel.com/v1/public/"
 
     const val PUBLIC_KEY = "b16c0b3cd910d80be01cee76b4421d00"
