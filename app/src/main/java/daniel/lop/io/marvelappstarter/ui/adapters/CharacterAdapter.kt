@@ -74,7 +74,7 @@ class CharacterAdapter : RecyclerView.Adapter<CharacterAdapter.CharacterViewHold
         }
     }
 
-    //Evento do clique no item do adapter
+    //Evento do clique no item do adapter, para que eu possa acessar o valor externamente.
     private var onItemClickListener: ((CharacterModel) -> Unit)? = null
 
     fun setOnClickListener(listener: (CharacterModel) -> Unit) {
